@@ -1,7 +1,3 @@
-# from src.counter import count_ocurrences
-
-
-from itertools import count
 from src.counter import count_ocurrences
 
 
