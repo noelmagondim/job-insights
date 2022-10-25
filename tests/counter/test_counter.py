@@ -1,5 +1,11 @@
 # from src.counter import count_ocurrences
 
 
+from itertools import count
+from src.counter import count_ocurrences
+
+
 def test_counter():
-    pass
+    path = "src/jobs.csv"
+    word = "PyThOn"
+    assert (count_ocurrences(path, word) == 1639)
